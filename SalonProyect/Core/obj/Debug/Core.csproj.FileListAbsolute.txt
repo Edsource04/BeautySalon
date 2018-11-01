@@ -1,0 +1,17 @@
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Core.dll.config
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Core.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Core.pdb
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Domain.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\EntityFramework.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Repository.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Domain.pdb
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Repository.pdb
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\Repository.dll.config
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\EntityFramework.xml
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\obj\Debug\Core.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Core\obj\Debug\Core.pdb

@@ -1,0 +1,17 @@
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\Repository.dll.config
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\Repository.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\Repository.pdb
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\EntityFramework.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\EntityFramework.xml
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.pdb
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\Domain.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\bin\Debug\Domain.pdb
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.Initial.resources
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.csproj.GenerateResource.cache
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.AddingModelWorkerChargeOfAccount.resources

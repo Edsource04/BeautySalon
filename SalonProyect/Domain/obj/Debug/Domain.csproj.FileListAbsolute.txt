@@ -1,0 +1,6 @@
+C:\Users\erivera\Desktop\C#\SalonProyect\Domain\bin\Debug\Domain.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Domain\bin\Debug\Domain.pdb
+C:\Users\erivera\Desktop\C#\SalonProyect\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\erivera\Desktop\C#\SalonProyect\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\erivera\Desktop\C#\SalonProyect\Domain\obj\Debug\Domain.dll
+C:\Users\erivera\Desktop\C#\SalonProyect\Domain\obj\Debug\Domain.pdb
