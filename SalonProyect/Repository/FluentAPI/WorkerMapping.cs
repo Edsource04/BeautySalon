@@ -16,6 +16,9 @@ namespace Repository.FluentAPI
             Property(c => c.Birthday).HasColumnType("Date");
             Property(p => p.InsertedDate).HasColumnType("DateTime");
             Property(p => p.ModifiedDate).HasColumnType("DateTime");
+
+            HasOptional(o => o.EmployeeUser)
+                .WithOptionalPrincipal(p => p.Employee);
         }
     }
 }

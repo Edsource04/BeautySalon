@@ -18,12 +18,14 @@ namespace Core
 
         public IClientRepository Clients { get; private set; }
         public IWorkerRepository Workers { get; private set; }
+        public IChargeOfAccount ChargeOfAccounts { get; private set; }
 
         public SalonUnitWorker(SalonContext context)
         {
             _context = context;
             Clients = new ClientRepository(_context);
             Workers = new WorkerRepository(_context);
+            ChargeOfAccounts = new ChargeOfAccountRepository(_context);
         }
 
         public void Dispose()

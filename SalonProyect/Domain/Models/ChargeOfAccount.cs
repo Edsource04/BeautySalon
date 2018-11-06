@@ -12,6 +12,7 @@ namespace Domain.Models
         public DateTime EntryDate { get; set; }
         public Decimal Value { get; set; }
         public Int32 ClientId { get; set; }
+        public bool Status { get; set; } = true;
         public bool IsPaid
         {
             get
@@ -29,6 +30,6 @@ namespace Domain.Models
 
         //Relationship
         public Client Client { get; set; }
-        //public Sale Sale { get; set; }
+        public SaleInvoice Sale { get; set; }
     }
 }

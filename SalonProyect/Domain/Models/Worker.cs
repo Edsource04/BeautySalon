@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Domain.Models
 {
-    public sealed class Worker
+    public class Worker
     {
+        public Worker()
+        {
+            this.PurchaseInvoices = new HashSet<PurchaseInvoice>();
+            this.SaleInvoices = new HashSet<SaleInvoice>();
+        }
+
         public Int32 WorkerId { get; set; }
         public String FirstName { get; set; }
         public String LastName { get; set; }
@@ -22,5 +28,9 @@ namespace Domain.Models
         public DateTime? ModifiedDate { get; set; }
         public String InsertedBy { get; set; }
         public String ModifiedBy { get; set; }
+
+        public virtual ICollection<PurchaseInvoice> PurchaseInvoices { get; private set; }
+        public virtual ICollection<SaleInvoice> SaleInvoices { get; private set; }
+        public virtual EmployeeUser EmployeeUser { get; set; }
     }
 }

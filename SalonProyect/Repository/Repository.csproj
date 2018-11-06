@@ -39,6 +39,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,9 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\DatabaseInfo.cs" />
     <Compile Include="Data\SalonContext.cs" />
     <Compile Include="FluentAPI\ChargeOfAccountMapping.cs" />
     <Compile Include="FluentAPI\ClientMapping.cs" />
+    <Compile Include="FluentAPI\EmployeeUserMapping.cs" />
+    <Compile Include="FluentAPI\PurchaseInvoiceMapping.cs" />
+    <Compile Include="FluentAPI\SaleInvoiceMapping.cs" />
+    <Compile Include="FluentAPI\UserMapping.cs" />
     <Compile Include="FluentAPI\WorkerMapping.cs" />
     <Compile Include="Migrations\201810311721584_Initial.cs" />
     <Compile Include="Migrations\201810311721584_Initial.Designer.cs">
@@ -60,9 +66,31 @@
     <Compile Include="Migrations\201811010552529_Adding Model Worker-ChargeOfAccount.Designer.cs">
       <DependentUpon>201811010552529_Adding Model Worker-ChargeOfAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811020308548_PurchaseInvoiceRel.cs" />
+    <Compile Include="Migrations\201811020308548_PurchaseInvoiceRel.Designer.cs">
+      <DependentUpon>201811020308548_PurchaseInvoiceRel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811021519368_User Table.cs" />
+    <Compile Include="Migrations\201811021519368_User Table.Designer.cs">
+      <DependentUpon>201811021519368_User Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811021752489_Table Employee User.cs" />
+    <Compile Include="Migrations\201811021752489_Table Employee User.Designer.cs">
+      <DependentUpon>201811021752489_Table Employee User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811060316230_SaleInvoice.cs" />
+    <Compile Include="Migrations\201811060316230_SaleInvoice.Designer.cs">
+      <DependentUpon>201811060316230_SaleInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811060328003_SalePurchaseRel.cs" />
+    <Compile Include="Migrations\201811060328003_SalePurchaseRel.Designer.cs">
+      <DependentUpon>201811060328003_SalePurchaseRel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ChargeOfAccountRepository.cs" />
     <Compile Include="Repositories\ClientRepository.cs" />
+    <Compile Include="Repositories\IChargeOfAccount.cs" />
     <Compile Include="Repositories\IClientRepository.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\IWorkerRepository.cs" />
@@ -85,6 +113,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811010552529_Adding Model Worker-ChargeOfAccount.resx">
       <DependentUpon>201811010552529_Adding Model Worker-ChargeOfAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811020308548_PurchaseInvoiceRel.resx">
+      <DependentUpon>201811020308548_PurchaseInvoiceRel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811021519368_User Table.resx">
+      <DependentUpon>201811021519368_User Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811021752489_Table Employee User.resx">
+      <DependentUpon>201811021752489_Table Employee User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811060316230_SaleInvoice.resx">
+      <DependentUpon>201811060316230_SaleInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811060328003_SalePurchaseRel.resx">
+      <DependentUpon>201811060328003_SalePurchaseRel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

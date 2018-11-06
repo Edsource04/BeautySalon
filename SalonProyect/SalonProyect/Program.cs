@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Core;
 using Repository.Data;
 using Domain.Models;
+using Domain.Extensions;
 
 namespace SalonProyect
 {
@@ -33,10 +34,9 @@ namespace SalonProyect
                     HostName = "ERIVERA"
                 };
 
-                salonWorker.Clients.Add(client1);
-
-                salonWorker.JobDone();
-                Console.WriteLine("One Client Registered");
+                
+                Console.ReadKey();
+               
             }
         }
     }

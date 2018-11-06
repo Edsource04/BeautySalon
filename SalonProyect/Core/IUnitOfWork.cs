@@ -7,6 +7,7 @@ namespace Core
     {
         IClientRepository Clients { get;}
         IWorkerRepository Workers { get; }
+        IChargeOfAccount ChargeOfAccounts { get; }
         Int32 JobDone();
     }
 }

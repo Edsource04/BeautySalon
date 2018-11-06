@@ -22,6 +22,9 @@ namespace Repository.Data
         public DbSet<Client> Clients { get; set; }
         public DbSet<Worker> Workers { get; set; }
         public DbSet<ChargeOfAccount> ChargeOfAccounts { get; set; }
+        public DbSet<PurchaseInvoice> PurchaseInvoices { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<SaleInvoice> SaleInvoices { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -29,6 +32,9 @@ namespace Repository.Data
             modelBuilder.Configurations.Add(new ClientMapping());
             modelBuilder.Configurations.Add(new WorkerMapping());
             modelBuilder.Configurations.Add(new ChargeOfAccountMapping());
+            modelBuilder.Configurations.Add(new PurchaseInvoiceMapping());
+            modelBuilder.Configurations.Add(new UserMapping());
+            modelBuilder.Configurations.Add(new SaleInvoiceMapping());
 
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             base.OnModelCreating(modelBuilder);

@@ -10,5 +10,7 @@ namespace Repository.Repositories
     public interface IClientRepository : IRepository<Client>
     {
         IEnumerable<Client> GetClientWithDebts();
+        object[] VwLoadClients();
+        object[] VwClientsWithDebts();
     }
 }

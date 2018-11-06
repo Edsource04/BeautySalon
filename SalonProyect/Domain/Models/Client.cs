@@ -9,6 +9,8 @@ namespace Domain.Models
         public Client()
         {
             this.ChargeOfAccounts = new HashSet<ChargeOfAccount>();
+            this.PurchaseInvoices = new HashSet<PurchaseInvoice>();
+            this.SaleInvoices = new HashSet<SaleInvoice>();
         }
 
         [Key]
@@ -48,5 +50,7 @@ namespace Domain.Models
 
         //Relationship
         public virtual ICollection<ChargeOfAccount> ChargeOfAccounts { get; private set; }
+        public virtual ICollection<PurchaseInvoice> PurchaseInvoices { get; private set; }
+        public virtual ICollection<SaleInvoice> SaleInvoices { get; private set; }
     }
 }
