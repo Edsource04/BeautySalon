@@ -78,6 +78,7 @@ namespace Repository.Repositories
                     item.EntryDate,
                     item.Value,
                     item.RemainingAmount,
+
                     item.Sale.SaleInvoiceId
                 };
 
@@ -85,6 +86,12 @@ namespace Repository.Repositories
             }
 
             return clients;
+        }
+
+
+        public object[] VwGetUserWorker()
+        {
+            throw new NotImplementedException();
         }
     }
 }

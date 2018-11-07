@@ -20,3 +20,7 @@ C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrati
 C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.TableEmployeeUser.resources
 C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.SaleInvoice.resources
 C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.SalePurchaseRel.resources
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.QuotationTable.resources
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.QuotationLineDetailsTable.resources
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.ProductCategoryTable.resources
+C:\Users\erivera\Desktop\C#\SalonProyect\Repository\obj\Debug\Repository.Migrations.ProductTable.resources

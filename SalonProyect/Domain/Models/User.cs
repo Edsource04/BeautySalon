@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Enums;
 
 namespace Domain.Models
 {
@@ -26,11 +27,4 @@ namespace Domain.Models
         public virtual EmployeeUser EmployeeUser { get; set; }
     }
 
-
-    public enum Role
-    {
-        Administrator,
-        SingleUser,
-        Owner
-    }
 }

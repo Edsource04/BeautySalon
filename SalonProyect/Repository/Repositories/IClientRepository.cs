@@ -12,5 +12,6 @@ namespace Repository.Repositories
         IEnumerable<Client> GetClientWithDebts();
         object[] VwLoadClients();
         object[] VwClientsWithDebts();
+        object[] VwGetUserWorker();
     }
 }

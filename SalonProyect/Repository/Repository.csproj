@@ -54,7 +54,10 @@
     <Compile Include="FluentAPI\ChargeOfAccountMapping.cs" />
     <Compile Include="FluentAPI\ClientMapping.cs" />
     <Compile Include="FluentAPI\EmployeeUserMapping.cs" />
+    <Compile Include="FluentAPI\ProductMapping.cs" />
     <Compile Include="FluentAPI\PurchaseInvoiceMapping.cs" />
+    <Compile Include="FluentAPI\QuotationLineMapping.cs" />
+    <Compile Include="FluentAPI\QuotationMapping.cs" />
     <Compile Include="FluentAPI\SaleInvoiceMapping.cs" />
     <Compile Include="FluentAPI\UserMapping.cs" />
     <Compile Include="FluentAPI\WorkerMapping.cs" />
@@ -86,12 +89,30 @@
     <Compile Include="Migrations\201811060328003_SalePurchaseRel.Designer.cs">
       <DependentUpon>201811060328003_SalePurchaseRel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811071343552_Quotation Table.cs" />
+    <Compile Include="Migrations\201811071343552_Quotation Table.Designer.cs">
+      <DependentUpon>201811071343552_Quotation Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811071403273_QuotationLine Details Table.cs" />
+    <Compile Include="Migrations\201811071403273_QuotationLine Details Table.Designer.cs">
+      <DependentUpon>201811071403273_QuotationLine Details Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811071417064_ProductCategoryTable.cs" />
+    <Compile Include="Migrations\201811071417064_ProductCategoryTable.Designer.cs">
+      <DependentUpon>201811071417064_ProductCategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811071434346_Product Table.cs" />
+    <Compile Include="Migrations\201811071434346_Product Table.Designer.cs">
+      <DependentUpon>201811071434346_Product Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ChargeOfAccountRepository.cs" />
     <Compile Include="Repositories\ClientRepository.cs" />
+    <Compile Include="Repositories\EmployeeUserRepository.cs" />
     <Compile Include="Repositories\IChargeOfAccount.cs" />
     <Compile Include="Repositories\IClientRepository.cs" />
+    <Compile Include="Repositories\IEmployeeUser.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\IWorkerRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
@@ -128,6 +149,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811060328003_SalePurchaseRel.resx">
       <DependentUpon>201811060328003_SalePurchaseRel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811071343552_Quotation Table.resx">
+      <DependentUpon>201811071343552_Quotation Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811071403273_QuotationLine Details Table.resx">
+      <DependentUpon>201811071403273_QuotationLine Details Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811071417064_ProductCategoryTable.resx">
+      <DependentUpon>201811071417064_ProductCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811071434346_Product Table.resx">
+      <DependentUpon>201811071434346_Product Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

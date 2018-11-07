@@ -12,6 +12,7 @@ namespace Domain.Models
         {
             this.PurchaseInvoices = new HashSet<PurchaseInvoice>();
             this.SaleInvoices = new HashSet<SaleInvoice>();
+            this.Quotations = new HashSet<Quotation>();
         }
 
         public Int32 WorkerId { get; set; }
@@ -32,5 +33,6 @@ namespace Domain.Models
         public virtual ICollection<PurchaseInvoice> PurchaseInvoices { get; private set; }
         public virtual ICollection<SaleInvoice> SaleInvoices { get; private set; }
         public virtual EmployeeUser EmployeeUser { get; set; }
+        public virtual ICollection<Quotation> Quotations { get; private set; }
     }
 }

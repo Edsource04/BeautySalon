@@ -7,6 +7,7 @@ using Core;
 using Repository.Data;
 using Domain.Models;
 using Domain.Extensions;
+using Domain.Tools;
 
 namespace SalonProyect
 {
@@ -14,6 +15,14 @@ namespace SalonProyect
     {
         public static void Main(String[] args)
         {
+            User user = new User
+            {
+                Username = "erivera",
+                Password = "GalaxySt",
+                Role = Domain.Enums.Role.Administrator,
+                Status = true
+            };
+
             using (var salonWorker = new SalonUnitWorker(new SalonContext()))
             {
                 Client client1 = new Client
@@ -34,7 +43,9 @@ namespace SalonProyect
                     HostName = "ERIVERA"
                 };
 
-                
+              
+                Console.WriteLine(Encryption.Encrypt(user.Password));
+                Console.WriteLine(Encryption.Decrypt("4+W1y4Rym8u/e4MCtKXKd7knXNG84jP4tO5PI7Pf76M="));
                 Console.ReadKey();
                
             }

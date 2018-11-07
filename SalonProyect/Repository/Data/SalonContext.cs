@@ -25,6 +25,10 @@ namespace Repository.Data
         public DbSet<PurchaseInvoice> PurchaseInvoices { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<SaleInvoice> SaleInvoices { get; set; }
+        public DbSet<EmployeeUser> EmployeeUsers { get; set; }
+        public DbSet<Quotation> Quotations { get; set; }
+        public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -35,6 +39,8 @@ namespace Repository.Data
             modelBuilder.Configurations.Add(new PurchaseInvoiceMapping());
             modelBuilder.Configurations.Add(new UserMapping());
             modelBuilder.Configurations.Add(new SaleInvoiceMapping());
+            modelBuilder.Configurations.Add(new QuotationMapping());
+            modelBuilder.Configurations.Add(new ProductMapping());
 
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             base.OnModelCreating(modelBuilder);
